@@ -1,6 +1,6 @@
 # Data Structures Lectures
 
-The purpose of this repository is to main a central point for maintaining and delivering lecture material to students taking CSC232 at Missouri State University with Jim Daehn. Please be sure to raise any issues found with the content of this repository on the [issues tab](https://github.com/msu-csc232-sp22/lectures/issues).
+The purpose of this repository is to provide a central point for maintaining and delivering lecture material to students taking CSC232 at Missouri State University with Jim Daehn, Spring 2022. Please be sure to raise any issues found with the content of this repository on the [issues tab](https://github.com/msu-csc232-sp22/lectures/issues).
 
 ## This Week in CSC232
 

@@ -5,6 +5,8 @@ set(SRC_MAIN_FILES
         src/main.cpp)
 set(SRC_DEMO_FILES
         src/demo.cpp)
+set(SRC_BAG_DEMO
+        src/Listing01_02.cpp)
 set(SRC_TEST_FILES
         test/test.cpp)
 
@@ -26,6 +28,7 @@ enable_testing()
 
 add_executable(week01 ${SRC_MAIN_FILES})
 add_executable(week01-demo ${SRC_DEMO_FILES})
+add_executable(listing01-02 ${SRC_BAG_DEMO})
 add_executable(week01-tests ${SRC_TEST_FILES})
 
 target_link_libraries(
@@ -35,6 +38,7 @@ target_link_libraries(
 
 target_include_directories(week01 PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
 target_include_directories(week01-demo PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
+target_include_directories(listing01-02 PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
 target_include_directories(week01-tests PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
 
 include(GoogleTest)

@@ -37,9 +37,6 @@ target_include_directories(week01 PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMA
 target_include_directories(week01-demo PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
 target_include_directories(week01-tests PUBLIC ${CMAKE_CURRENT_LIST_DIR}/include ${CMAKE_CURRENT_LIST_DIR}/src)
 
-message("${CMAKE_CURRENT_LIST_DIR}: ")
-message(${CMAKE_CURRENT_LIST_DIR})
-
 include(GoogleTest)
 gtest_discover_tests(week01-tests)
 

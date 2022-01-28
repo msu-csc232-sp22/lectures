@@ -2,6 +2,14 @@
 
 This page is a log of all weekly action items.
 
+## Week 2
+
+### Action Items
+
+- **Set up** WSL
+- **Read** Chapter 1 - Data Abstraction: The Walls
+- **Read** C++ Interlude 1
+
 ## Week 1
 
 ### Notable Events

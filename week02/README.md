@@ -1,4 +1,4 @@
-# C++ Classes
+# Lecture: C++ Classes
 
 A repository that covers a review of C++ classes.
 

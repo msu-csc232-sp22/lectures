@@ -10,7 +10,7 @@ _Note: The contents of this README is taken directly (with slight modifications)
 
 A **pointer variable** is a variable that stores the address where another object resides. It is the fundamental mechanism used in many data structures. For instance, to store a list of items, we could use a contiguous array, but insertion in the middle of a contiguous array requires relocation of many items. Rather than store the collection in an array, it is common to store each item in a separate, noncontiguous place of memory, which is allocated as the program runs. Along with each object is a link to the next object. This link is a pointer variable, because it stores the memory location of another object. This is the classic linked list discussed later in the semester.
 
-To illustrate the operations that apply to pointers, we reuse our `IntCell` by dynamically allocating memory for one in [IntCellPtr.cpp](./src/IntCellPtr.cpp). It must be emphasized that for a simple `IntCell` class, there is no good reason to write the C++ code this way. We do it only to illustrate dynamic memory allocation in a simple context. Later in the semester, we'll see more complicated classes, where this technique is useful and necessary.
+To illustrate the operations that apply to pointers, we reuse our `IntCell` by dynamically allocating memory for one in [IntCellPtr.cpp](src/InrCellPtr.cpp). It must be emphasized that for a simple `IntCell` class, there is no good reason to write the C++ code this way. We do it only to illustrate dynamic memory allocation in a simple context. Later in the semester, we'll see more complicated classes, where this technique is useful and necessary.
 
 #### Declaration
 

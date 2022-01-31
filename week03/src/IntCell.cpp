@@ -1,16 +1,16 @@
+#include <cstdlib>
+#include <iostream>
 #include "IntCell.h"
 
-IntCell::IntCell( int initialValue ) : storedValue{ initialValue }
+int main()
 {
+    IntCell *m;
 
-}
+    m = new IntCell{ 0 };
+    m->write( 5 );
 
-int IntCell::read( ) const
-{
-    return storedValue;
-}
+    std::cout << "Cell contents: " << m->read( ) << std::endl;
 
-void IntCell::write( int x )
-{
-    storedValue = x;
+    delete m;
+    return EXIT_SUCCESS;
 }

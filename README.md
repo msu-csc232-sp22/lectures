@@ -16,19 +16,20 @@ The purpose of this repository is to provide a central point for maintaining and
 |   2|Monday   |24-Jan|Guest Teacher Presentation                                |None                                                          |
 |    |Wednesday|26-Jan|Setting up WSL                                            |Teams conversations & Lab0b recorded sessions                 |
 |    |Friday   |28-Jan|C++ Review - Classes                                      |[C++ Classes](week02/README.md)                               |
-|   3|Monday   |31-Jan|C++ Details (Part 1): lvalues, rvalues and references     |Handouts                                                      |
+|   3|Monday   |31-Jan|C++ Details (Part 1): lvalues, rvalues and references     |[C++ Details (Part 1)](week03/cpp-details1.md)                                                     |
 |    |Wednesday|02-Feb|C++ Details (Part 2): Parameter passing and Return passing|Handouts                                                      |
 |    |Friday   |04-Feb|C++ Details (Part 3): The Big Five                        |Handouts                                                      |
 
 
 ## Action Items
 
-- **Set up** WSL
-- **Read** Chapter 1 - Data Abstraction: The Walls
-- **Read** C++ Interlude 1, [Online lecture material](week02/README.md)
+- **Re-read** C++ Interlude 1, [Online lecture material](week02/README.md)
+  - **Formulate** any questions related to this material
+- **Read** [C++ Details (Part 1)](week03/cpp-details1.md)
 
 ## Change Logs
 
+- 31-01-2022: Initial Week 3 updates (add C++ Details (Part 1))
 - 28-01-2022: Week 2 updates
 - [Action Items](actions.md) by week
 - [Weekly Schedule](schedule.md)

@@ -44,7 +44,7 @@ m = new IntCell;    // less explicit, but still valid
 
 #### Garbage Collection and `delete`
 
-In some languages, when an object is no longer referenced, it is subject to automatic garbage collection; the programmer does not have to worry about it. C++ does not have garbage collection. When an object that is _allocated_ by `new` is no longer referenced, the `delete` operation must be applied to the object (through a pointer). Otherwise, the memory that it consumes is lost (until the program terminates). This is known as a **memory leak**. Memory leaks are, unfortunately, common occurrences in many C++ programs. Fortunately, many sources of memory leaks can be automatically removed with care. One important rule is to not use `new` when an **automatic variable** can be used instead. In the previous lecture, the `IntCell` is not allocated by `new` but instead is allocated as a local variable. In that case, the memory for the `IntCell` is automatically reclaimed when the function in which it is declared returns. The `delete` operator is shown in use here:
+In some languages, when an object is no longer referenced, it is subject to automatic garbage collection; the programmer does not have to worry about it. C++ does not have garbage collection for these so called "raw pointers." When an object that is _allocated_ by `new` is no longer referenced, the `delete` operation must be applied to the object (through a pointer). Otherwise, the memory that it consumes is lost (until the program terminates). This is known as a **memory leak**. Memory leaks are, unfortunately, common occurrences in many C++ programs. Fortunately, many sources of memory leaks can be automatically removed with care. One important rule is to not use `new` when an **automatic variable** can be used instead. In the previous lecture, the `IntCell` is not allocated by `new` but instead is allocated as a local variable. In that case, the memory for the `IntCell` is automatically reclaimed when the function in which it is declared returns. The `delete` operator is shown in use here:
 
 ```c++
 delete m;
@@ -52,11 +52,11 @@ delete m;
 
 #### Assignment and Comparison of Pointers
 
-Assignment and comparison of pointer variables in C++ is based on the value of hte pointer, meaning the memory address that is stores. Thus two pointer variables are equal if they point at the same object. If they point at different objects, the pointer variables are not equal, even if the objects being pointed at are themselves equal. If `lhs` and `rhs` are pointer variables (of compatible types), then `lhs=rhs` makes `lhs` point at the same object that `rhs` points at.
+Assignment and comparison of pointer variables in C++ is based on the value of the pointer, meaning the memory address that is stores. Thus two pointer variables are equal if they point at the same object. If they point at different objects, the pointer variables are not equal, even if the objects being pointed at are themselves equal. If `lhs` and `rhs` are pointer variables (of compatible types), then `lhs = rhs` makes `lhs` point at the same object to which `rhs` points.
 
 #### Accessing Members of an Object through a Pointer
 
-If a pointer variable points at a class type, then a (visible) member of the object being pointed at can be accessed via the `->` operator. This is illustrated thusly:
+If a pointer variable points at a class type, then a (visible, i.e., `public`) member of the object being pointed at can be accessed via the `->` operator. This is illustrated thusly:
 
 ```c++
 m->write( 5 );
@@ -69,7 +69,7 @@ One important operator is the **address-of operator** `&`. This operator returns
 
 ### Lvalues, Rvalues, and References
 
-In addition to pointer types, C++ defines reference types. One of the major changes in C++11 is the creation of a new reference type, known as an rvalue reference. In order to discuss the rvalue references, and the more usual lvalue reference, we need to discuss the concept of lvalues and rvalues. Note that the precise rules are complex, and we provide a general description rather than focusing on the corner cases that are impoant in a language specification and for compiler writers.
+In addition to pointer types, C++ defines reference types. One of the major changes in C++11 is the creation of a new reference type, known as an rvalue reference. In order to discuss the rvalue references, and the more usual lvalue reference, we need to discuss the concept of lvalues and rvalues. Note that the precise rules are complex, and we provide a general description rather than focusing on the corner cases that are important in a language specification and for compiler writers.
 
 An **lvalue** is an expression that identifies a non-temporary object. An **rvalue** is an expression that identifies a temporary object or is a value (such as a literal constant) not associated with any object.
 
@@ -89,7 +89,7 @@ With these declarations, `arr`, `str`, `arr[x]`, `&x` `y`, `z`, `ptr`, `*ptr`, `
 
 For the above declarations, `2`, `"foo"`, `x + y`, `str.substr(0, 1)` are all rvalues. `2` and `"foo"` are rvalues because they are literals. Intuitively, `x + y` is an rvalue because its value is temporary; it is certainly not `x` or `y`, but it is stored somewhere prior to being assigned to `z`. Similar logic applies for `str.substr(0,1)`.
 
-Notice the consequences that there are some cases in which the result of a function call or operator call can be an lvalue (since `*ptr` and `arr[x]` generate lvalues) as does `cin>>x>>y` and others where it can be an rvalue; hence, the language syntax allows a function all or operator overload to specify this in the return type, and this aspect is discussed later on. Intuitively, if the function call computes an expression whose value does not exist prior to the call and does not exist once the call is finished unless it is copied somewhere, it is likely to be an rvalue.
+Notice the consequences that there are some cases in which the result of a function call or operator call can be an lvalue (since `*ptr` and `arr[x]` generate lvalues) as does `cin >> x >> y` and others where it can be an rvalue; hence, the language syntax allows a function all or operator overload to specify this in the return type, and this aspect is discussed later on. Intuitively, if the function call computes an expression whose value does not exist prior to the call and does not exist once the call is finished unless it is copied somewhere, it is likely to be an rvalue.
 
 A reference type allows us to define a new name for an existing value. In classic C++, a reference can generally only be a name for an lvalue, since having a reference to a temporary would lead to the ability to access an object that has theoretically been declared as no longer needed, and thus may have had its resources reclaimed for another object. However, in C++11, we can have two types of references: lvalue references and rvalue references.
 

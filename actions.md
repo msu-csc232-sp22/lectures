@@ -7,6 +7,7 @@ This page is a log of all weekly action items.
 - **Re-read** C++ Interlude 1, [Online lecture material](week02/README.md)
   - **Formulate** any questions related to this material
 - **Read** [C++ Details (Part 1)](week03/cpp-details1.md)
+- **Read** Appendix A (in particular, A.6 Arrays, and any other sections if you need more background/review in C++)
 
 ## Week 2
 

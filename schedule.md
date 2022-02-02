@@ -10,17 +10,17 @@ This page is a log of all weekly topics.
 |    |Wednesday|26-Jan|C++ Review - Classes                                         |C++ Interlude 1 (C1.1 - Data & Operations)                   |
 |    |Friday   |28-Jan|C++ Review - Classes                                         |C++ Interlude 1 (C1.2 - Initializers)                        |
 |   3|Monday   |31-Jan|C++ Details (Part 1): lvalues, rvalues and references        |[C++ Details (Part 1)](week03/cpp-details1.md)               |
-|    |Wednesday|02-Feb|C++ Details (Part 2): Parameter passing and Return passing   |Handouts                                                     |
-|    |Friday   |04-Feb|C++ Details (Part 3): The Big Five                           |Handouts                                                     |
-|   4|Monday   |07-Feb|Recursion That Returns a Value                               |Chapter 2 - Recursion: The Mirrors (2.1-2.2)                 |
-|    |Wednesday|09-Feb|Recursion That Performs an Action                            |Chapter 2 - Recursion: The Mirrors (2.3)                     |
+|    |Wednesday|02-Feb|_Day and evening classes canceled at MSU due to weather_     |                                                             |
+|    |Friday   |04-Feb|C++ Details (Part 2): Parameter passing and Return passing|Handouts                                                        |
+|   4|Monday   |07-Feb|C++ Details (Part 3): The Big Five                           |Handouts                                                     |
+|    |Wednesday|09-Feb|Recursion That Returns a Value and Performs an Action        |Chapter 2 - Recursion: The Mirrors (2.1-2.3)                 |
 |    |Friday   |11-Feb|Recursion with Arrays                                        |Chapter 2 - Recursion: The Mirrors (2.4)                     |
 |   5|Monday   |14-Feb|Examples: Towers of Hanoi                                    |Chapter 2 - Recursion: The Mirrors (2.5)                     |
 |    |Wednesday|16-Feb|Examples: Fibonacci Sequence                                 |Chapter 2 - Recursion: The Mirrors (2.6)                     |
 |    |Friday   |18-Feb|Introduction to Dynamic Programming                          |Class Handouts                                               |
 |   6|Monday   |21-Feb|_Presidents' Holiday (No Classes, Offices Closed)_           |                                                             |
 |    |Wednesday|23-Feb|Dynamic Programming: Example (Jump It Game)                  |Class Handouts                                               |
-|    |Friday   |25-Feb|Dynamic Programming: Example (Number of Ways to Climb Stairs)|Class Handouts                                              |
+|    |Friday   |25-Feb|Dynamic Programming: Example (Number of Ways to Climb Stairs)|Class Handouts                                               |
 |   7|Monday   |28-Feb|Designing and implementing an array-based ADT                |Chapter 3 - Array-based Implementations (3.1)                |
 |    |Wednesday|02-Mar|Defining and testing core methods                            |Chapter 3 - Array-based Implementations (3.2.1-3.2.3)        |
 |    |Friday   |04-Mar|Implementing and testing additional methods                  |Chapter 3 - Array-based Implementations (3.2.4-3.2.6)        |

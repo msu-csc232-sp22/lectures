@@ -15,15 +15,15 @@ The purpose of this repository is to provide a central point for maintaining and
 |Week|Day      |Date  |Topic                                                     |Reading                                                       |
 |---:|:--------|:----:|:---------------------------------------------------------|:-------------------------------------------------------------|
 |   3|Monday   |31-Jan|C++ Details (Part 1): lvalues, rvalues and references     |[C++ Details (Part 1)](week03/cpp-details1.md)                |
-|    |Wednesday|02-Feb|C++ Details (Part 2): Parameter passing and Return passing|Handouts                                                      |
-|    |Friday   |04-Feb|C++ Details (Part 3): The Big Five                        |Handouts                                                      |
+|    |Wednesday|02-Feb|_Day and evening classes canceled at MSU due to weather_  |                                                              |
+|    |Friday   |04-Feb|C++ Details (Part 2): Parameter passing and Return passing|Handouts                                                      |
 
 ## Coming Up in CSC232
 
 |Week|Day      |Date  |Topic                                                        |Reading                                                       |
 |---:|:--------|:----:|:------------------------------------------------------------|:-------------------------------------------------------------|
-|   4|Monday   |07-Feb|Recursion That Returns a Value                               |Chapter 2 - Recursion: The Mirrors (2.1-2.2)                  |
-|    |Wednesday|09-Feb|Recursion That Performs an Action                            |Chapter 2 - Recursion: The Mirrors (2.3)                      |
+|   4|Monday   |07-Feb|C++ Details (Part 3): The Big Five                           |Handouts                                                      |
+|    |Wednesday|09-Feb|Recursion That Returns a Value and Performs an Action        |Chapter 2 - Recursion: The Mirrors (2.1-2.3)                  |
 |    |Friday   |11-Feb|Recursion with Arrays                                        |Chapter 2 - Recursion: The Mirrors (2.4)                      |
 |   5|Monday   |14-Feb|Examples: Towers of Hanoi                                    |Chapter 2 - Recursion: The Mirrors (2.5)                      |
 |    |Wednesday|16-Feb|Examples: Fibonacci Sequence                                 |Chapter 2 - Recursion: The Mirrors (2.6)                      |

@@ -4,43 +4,42 @@ The purpose of this repository is to provide a central point for maintaining and
 
 ## Last Week in CSC232
 
-|Week|Day      |Date  |Topic                                                     |Reading                                                       |
-|---:|:--------|:----:|:---------------------------------------------------------|:-------------------------------------------------------------|
-|   2|Monday   |24-Jan|Guest Teacher Presentation                                |None                                                          |
-|    |Wednesday|26-Jan|Setting up WSL                                            |Teams conversations & Lab0b recorded sessions                 |
-|    |Friday   |28-Jan|C++ Review - Classes                                      |[C++ Classes](week02/README.md)                               |
+| Week | Day       |  Date  | Topic                       | Reading                                       |
+|-----:|:----------|:------:|:----------------------------|:----------------------------------------------|
+|    8 | Monday    | 07-Mar | More method implementations | Chapter 3, Sections 3.2.4-3.2.6               |
+|      | Wednesday | 09-Mar | Review for exam 1           | Teams conversations & Lab0b recorded sessions |
+|      | Friday    | 11-Mar | Exam 1                      | _MSU Classes Canceled_                        |
 
 ## This Week in CSC232
 
-|Week|Day      |Date  |Topic                                                     |Reading                                                       |
-|---:|:--------|:----:|:---------------------------------------------------------|:-------------------------------------------------------------|
-|   3|Monday   |31-Jan|C++ Details (Part 1): lvalues, rvalues and references     |[C++ Details (Part 1)](week03/cpp-details1.md)                |
-|    |Wednesday|02-Feb|_Day and evening classes canceled at MSU due to weather_  |                                                              |
-|    |Friday   |04-Feb|C++ Details (Part 2): Parameter passing and Return passing|Handouts                                                      |
+| Week | Day       |  Date  | Topic                                     | Reading                      |
+|-----:|:----------|:------:|:------------------------------------------|:-----------------------------|
+|    - | Monday    | 14-Mar | _Spring Break (no classes, offices open)_ | What ever your heart desires |
+|      | Wednesday | 16-Mar | _Spring Break (no classes, offices open)_ | What ever your heart desires |
+|      | Friday    | 18-Mar | _Spring Break (no classes, offices open)_ | What ever your heart desires |
 
 ## Coming Up in CSC232
 
-|Week|Day      |Date  |Topic                                                        |Reading                                                       |
-|---:|:--------|:----:|:------------------------------------------------------------|:-------------------------------------------------------------|
-|   4|Monday   |07-Feb|C++ Details (Part 3): The Big Five                           |Handouts                                                      |
-|    |Wednesday|09-Feb|Recursion That Returns a Value and Performs an Action        |Chapter 2 - Recursion: The Mirrors (2.1-2.3)                  |
-|    |Friday   |11-Feb|Recursion with Arrays                                        |Chapter 2 - Recursion: The Mirrors (2.4)                      |
-|   5|Monday   |14-Feb|Examples: Towers of Hanoi                                    |Chapter 2 - Recursion: The Mirrors (2.5)                      |
-|    |Wednesday|16-Feb|Examples: Fibonacci Sequence                                 |Chapter 2 - Recursion: The Mirrors (2.6)                      |
-|    |Friday   |18-Feb|Introduction to Dynamic Programming                          |Class Handouts                                                |
-|   6|Monday   |21-Feb|_Presidents' Holiday (No Classes, Offices Closed)_           |                                                              |
-|    |Wednesday|23-Feb|Dynamic Programming: Example (Jump It Game)                  |Class Handouts                                                |
-|    |Friday   |25-Feb|Dynamic Programming: Example (Number of Ways to Climb Stairs)|Class Handouts                                                |
+| Week | Day       |  Date  | Topic                                                                                         | Reading                                                                      |
+|-----:|:----------|:------:|:----------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+|    9 | Monday    | 21-Mar | Exam 1 is due by 1:30 P.M.                                                                    | Chapters 1-3, Selected Weiss readings, Dynamic Programming handouts          |
+|      | Wednesday | 23-Mar | Pointers, Polymorphism, and Memory Allocation                                                 | C++ Interlude 2 (C2.1-C2.3)                                                  |
+|      | Friday    | 25-Mar | Virtual Methods and Polymorphism                                                              | C++ Interlude 2 (C2.4)                                                       |
+|   10 | Monday    | 28-Mar | Dynamic Allocation of Arrays; The Node Class, and Core Methods of linked-based implementation | C++ Interlude 2 (C2.5), Chapter 4 - Linked-based implementations (4.1-4.2.2) |
+|      | Wednesday | 30-Mar | Implementation of additional methods for the `LinkedBag`                                      | Chapter 4 - Linked-based implementations (4.2.3)                             |
+|      | Friday    | 01-Apr | Recursive implementations of `LinkedBag` operations                                           | Chapter 4 - Linked-based implementations (4.3)                               |
+|   11 | Monday    | 04-Apr | Stack Interface                                                                               | Chapter 6 - Stacks                                                           |
+|      | Wednesday | 06-Apr | Array-based implementation                                                                    | Chapter 7 - Array-based implementations                                      |
+|      | Friday    | 08-Apr | Linked-based implementation                                                                   | Chapter 7 - Linked-based implementations                                     |
 
 ## Action Items
 
-- **Re-read** C++ Interlude 1, [Online lecture material](week02/README.md)
-  - **Formulate** any questions related to this material
-- **Read** [C++ Details (Part 1)](week03/cpp-details1.md)
-- **Read** Appendix A (in particular, A.6 Arrays, and any other sections if you need more background/review in C++)
+- **Study** for Exam 1
+- **Ensure** you have taken Exam 1 on Blackboard by 1:30 P.M., Monday 21-Mar upon return to MSU
 
 ## Change Logs
 
+- 12-03-2022: Update from Spring Break through the week of 04-Apr (3 additional weeks)
 - 31-01-2022: Initial Week 3 updates (add C++ Details (Part 1))
 - 28-01-2022: Week 2 updates
 - [Action Items](actions.md) by week

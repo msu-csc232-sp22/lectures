@@ -26,7 +26,7 @@ This page is a log of all weekly topics.
 |      | Friday    | 04-Mar | Implementing and testing additional methods                                                   | Chapter 3 - Array-based Implementations (3.2.4-3.2.6)                        |
 |    8 | Monday    | 07-Mar | Using recursion in the implementations                                                        | Chapter 3 - Array-based Implementations (3.3)                                |
 |      | Wednesday | 09-Mar | Review                                                                                        | Chapters 1-3, C++ Interlude 1, Dynamic Programming                           |
-|      | Friday    | 11-Mar | ~~~**Exam** 1~~~ (_Missouri State University cancels classes_)                                | Chapters 1-3, C++ Interlude 1, Dynamic Programming                           |
+|      | Friday    | 11-Mar | ~~**Exam** 1~~ (_Missouri State University cancels classes_)                                  | Chapters 1-3, C++ Interlude 1, Dynamic Programming                           |
 |    - | Monday    | 14-Mar | _Spring Break (No Classes, Offices Open)_                                                     |                                                                              |
 |      | Wednesday | 14-Mar | _Spring Break (No Classes, Offices Open)_                                                     |                                                                              |
 |      | Friday    | 14-Mar | _Spring Break (No Classes, Offices Open)_                                                     |                                                                              |

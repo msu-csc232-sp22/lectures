@@ -8,7 +8,7 @@ The purpose of this repository is to provide a central point for maintaining and
 |-----:|:----------|:------:|:----------------------------|:----------------------------------------------|
 |    8 | Monday    | 07-Mar | More method implementations | Chapter 3, Sections 3.2.4-3.2.6               |
 |      | Wednesday | 09-Mar | Review for exam 1           | Teams conversations & Lab0b recorded sessions |
-|      | Friday    | 11-Mar | Exam 1                      | _MSU Classes Canceled_                        |
+|      | Friday    | 11-Mar | ~~Exam 1~~                  | _MSU Classes Canceled_                        |
 
 ## This Week in CSC232
 

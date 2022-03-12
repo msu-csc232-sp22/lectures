@@ -364,3 +364,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 api/
+
+# Jetbrains - CLion
+.idea/

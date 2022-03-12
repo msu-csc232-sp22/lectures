@@ -2,6 +2,13 @@
 
 This page is a log of all weekly action items.
 
+## Week 8
+
+- **Study** for Exam 1
+- **Ensure** you have taken Exam 1 on Blackboard by 1:30 P.M., Monday 21-Mar upon return to MSU
+
+_The following gap, while disappointing, is correct; weekly updates to action items were not committed since Week 3_.
+
 ## Week 3
 
 - **Re-read** C++ Interlude 1, [Online lecture material](week02/README.md)
